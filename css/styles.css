@@ -1,0 +1,249 @@
+/* Elements */
+
+body {
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    background-attachment: fixed;
+    
+}
+
+
+
+/* Title section */
+#title {
+    background-color: #000;
+    background-image: url("https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1778&q=80");
+    /* background: scroll; */
+    text-align: center;
+    min-height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 7%;
+    
+    
+    height: 700px;
+   
+    
+}
+.navbarwhole {
+    margin-bottom: 5%;
+}
+
+.list {
+    margin-left: 70%;
+}
+
+.navitems {
+    margin: 1%;
+    font-size: 20px;
+    
+}
+
+#title .name {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 4rem;
+    margin-top: 6%;
+
+}
+@media (max-width: 900px){
+    .list {
+        margin-left: 0%;
+    }
+    
+    #title .name {
+        font-size: 3.5rem;
+        margin-top: 2%;
+    }
+
+}
+
+
+/* About section  */
+
+#About {
+    margin: 10% 15% 20%;
+    /* height: 700px; */
+    text-align: center;
+
+}
+
+.profile {
+    width: 15%;
+}
+
+.image-div {
+    text-align: center;
+}
+
+.about-para{
+    margin: 5% 5%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 2;
+}
+
+@media (max-width : 900px){
+    .profile{
+        width: 25%;
+    }
+    .about-para {
+        margin: 1 0%;
+        line-height: 1.5;
+    }
+
+}
+
+
+/* Skills Section  */
+
+#Skills {
+    color: #fff;
+    margin: 5% 5%;
+    text-align: center;
+}
+
+.cardsAll {
+    color: #000;
+    margin-top: 5%;
+   /* margin: 2% 25%; */
+}
+.lang {
+    margin-bottom: 10%;
+}
+
+.what {
+    margin-bottom: 10%;
+    
+}
+
+.lang-img {
+    margin: 5%;
+}
+
+.android-dev {
+    width: 50%;
+}
+
+.pgbars {
+    margin: 5% 15%;
+}
+
+.pgbar {
+    margin: 2% 3%;
+}
+
+.my-skills {
+    margin: 3% 15% 1%;
+}
+
+#Skills .what-i-know{
+    margin-bottom: 10%;
+    color: red;
+}
+
+@media (max-width : 900px) {
+    #Skills {
+        margin: 5% 0%;
+    }
+
+    .lang {
+        margin-top: 10%;
+    }
+
+    .dev-img {
+        width: 50%;
+    }
+
+    
+}
+
+
+/* Project Section  */
+
+.my-project {
+    margin: 20% 10% 1%;
+}
+
+
+#Project {
+    margin: 10% 15% 30%;
+    height: 500px;
+}
+
+#Project .what-i-made {
+    margin-bottom: 15%;
+    color: red;
+}
+
+.carousel-images {
+    /* height: 200px;
+    width: 200px; */
+    width: 10%;
+}
+
+.cr {
+    height: 400px;
+}
+.car-item-title {
+    margin: 2% auto;
+}
+
+@media (max-width: 900px) {
+    .carousel-images {
+        
+    }
+    .cr {
+        height: 200px;
+    }
+
+    #Project {
+        margin-bottom: 5%;
+    }
+    
+}
+
+/* Footer Section  */
+
+#Contacttile {
+    margin: 30% 0% 0%;
+    background-color: rgb(18, 17, 17);
+    /* height: 500px; */
+    text-align: center;
+}
+
+.contact-head {
+    padding-top: 7%;
+    
+
+
+}
+
+.info-contain {
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.contain-info {
+    margin: 5% 15%;
+}
+
+/* .social {
+    margin: 3% 35%;
+    text-align: center;
+} */
+
+.social-items {
+    margin: 4%;
+}
+
+.copyright {
+    padding-bottom: 5%;
+    margin-bottom: 0%;
+}
