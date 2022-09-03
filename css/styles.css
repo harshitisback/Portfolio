@@ -94,8 +94,9 @@ body {
         width: 25%;
     }
     .about-para {
-        margin: 1 0%;
-        line-height: 1.5;
+        margin: 3% 0%;
+        line-height: 1.1;
+        font-size: 1rem;
     }
 
 }
@@ -161,6 +162,10 @@ body {
         width: 50%;
     }
 
+    .lang-img {
+        width: 30%;
+    }
+
     
 }
 
@@ -204,6 +209,7 @@ body {
     }
 
     #Project {
+        margin-top: 30%;
         margin-bottom: 5%;
     }
     
